@@ -1,0 +1,328 @@
+body{
+	text-align: left;
+	font-family: Tahoma;
+	font-size: 14px;
+	background: url(../images/blurred.jpg) center top;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+				-moz-background-size: cover;
+				background-size: cover;
+}
+.karsilik{
+	width:60px;
+}
+.nav{
+	margin: 0;
+	padding: 0;
+}
+.nav li{
+	height: 30px;
+	background: url(../icon/btnbg.png);
+	float:left;
+	list-style-type: none;
+	margin-right: 6px;
+	padding:10px 5px 0 5px;
+	
+}
+.nav li a span{
+	margin-top:15px;
+}
+.nav li a{
+	font-weight: bold;
+	text-decoration: none;
+	color:#fff;
+}
+.logo
+{
+	margin-top:20px;
+	margin-left:20px;
+}
+.float_clear{
+	clear:both;
+}
+.kutu{
+	
+	
+	border-radius: 5px;
+}
+#top {
+	width:1330px;
+	height: 120px;
+	margin:10px 0 10px 0;
+	text-align: left;
+}
+#top_left{
+	width: 400px;
+	height: 120px;
+	float:left;
+
+}
+#top_right{
+	width:930px;
+	height:120px;
+	float:right;
+	text-align: right;
+}
+#hello_message_bar{
+	width:1330px;
+	height: 30px;
+	margin-bottom: 8px;
+	background: url(../images/border.png);
+}
+#middle{
+	width:1330px;
+	min-height: 250px;
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+#content{
+	width: 1330px;
+	min-height: 250px;
+}
+#footer{
+	width: 1330px;
+	height: 150px;
+}
+.menum{
+	margin:0 0 0 425px;
+	padding: 0;
+	list-style: none;
+}
+.menum li {
+	display: inline;
+	float:left;
+	width:100px;
+	height: 25px;
+	text-decoration: none;
+	padding: 5px 10px 0 10px;
+}
+.menum li a{
+	text-decoration: none;
+
+}
+.menum li:hover , .menum li:hover a{
+	background-color: #1A1074;
+	color: white;
+}
+.menum li ul{
+	display: none;
+}
+.menum li:hover ul{
+	display: block;
+	top: 7px;
+	position: relative;
+	left:-40px;
+	list-style: none;
+}
+.menum li:hover ul li {
+	min-width: 180px;
+	min-height: 25px;
+	padding: 3px;
+	background-color: #fff;
+	border-bottom: 1px solid gray;
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+	
+}
+.menum li:hover ul li a
+{
+	background-color: #fff;
+	display: block;
+	color: #000;
+}
+.menum li:hover ul li:hover , .menum li:hover ul li:hover a
+{
+	background-color: #eee;
+}
+.secim_liste td {
+	padding: 10px 25px;
+}
+
+.error_msg{
+	padding: 6px;
+	background-color: #111;
+	border-radius: 4px;
+	box-shadow: 0 2px 5px black;
+	color: #fff;
+	width: 390px;
+}
+.ok_msg_big{
+	padding: 6px;
+	background-color: #FF7F00;
+	border-radius: 4px;
+	box-shadow: 0 2px 5px black;
+	color: #fff;
+	width: 390px;
+}
+.ok_msg{
+	padding: 6px;
+	background-color: #FF7F00;
+	border-radius: 4px;
+	box-shadow: 0 2px 5px black;
+	color: #fff;
+	width: 330px;
+}
+.icerik{
+	
+	margin:15px 10px 15px 10px;
+	text-shadow:1px blue;
+}
+.form1{
+	color: white;
+}
+.form1 select {
+	width: 245px;
+	min-height: 22px;
+	border: 1px solid gray;
+	border-radius: 6px;
+}
+.form1 input {
+
+	width: 241px;
+	min-height: 22px;
+	border: 1px solid gray;
+	border-radius: 6px;
+	
+}
+.form1 input:focus , .form1 textarea:focus{
+	
+}
+.ABLOK {
+	background-image: url(../apart/duvar.png);
+	background-repeat: repeat;
+	width: 15px;
+}
+#msgBox{
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	width: 220px;
+	height: 26px;
+	display: none;
+	background-color: #FF7F00;
+	color: #fff;
+	padding: 9px;
+	text-align: center;
+}
+#icerik2{
+	background-color: #fff;
+}
+.liste_head_islem{
+	width: 100%;
+	text-align: center;
+}
+.liste_head_islem td{
+	border-color: #999;
+	height: 28px;
+}
+.sayfalama{
+	margin:3px;
+	padding: 3px;
+	background-color: #FF7F00;
+	color: #fff;
+	text-decoration: none;
+}
+.sayfalama:hover{
+	background-color: #fff;
+	color: #000;
+}
+.liste_head{
+	width: 100%;
+	text-align:center;
+}
+.liste_head td{
+	padding-left:28px;
+	padding-right:28px;
+}
+.odalar{
+	color:#fff;
+}
+.odalar td{
+	border-bottom:1px solid gray;
+
+}
+.yok td {
+	border: 0px;
+}
+.form1 .btnGonder{
+	min-height: 25px;
+	width: 245px;
+}
+.form1 .btnGonder:hover{
+	background-color: #FF6500;
+	color: white;
+}
+.form1 textarea{
+	border: 1px solid gray;
+	border-radius: 6px;
+	
+}
+.yazi_beyaz{
+	color: #fff;
+}
+.yazi_beyaz td
+{
+	color: #fff;
+}
+.table_liste{
+	width:1320px;
+}
+
+.login_kutu
+{
+	
+	
+	border-radius: 5px;
+	width: 350px;
+	padding: 14px;
+	background-color: #fff;
+}
+.head{
+	margin-top: -42px;
+}
+.odeme_tablosu{
+	width: 950px;
+
+}
+.odeme_tablosu td {
+	width:350px;
+	text-align: center;
+	background-color: #D0D0DA;
+	color: black;
+	border:1px solid gray;
+}
+.ad_soyad{
+	width:150px;
+}
+.telefon{
+	width: 100px;
+}
+.urun_turu{
+	width:100px;
+}
+.sehir{
+	
+}
+.alinma{
+	width:80px;
+}
+.tamamlanma{
+	width: 80px;
+}
+.aciklama{
+	width: 180px;
+}
+.islem{
+	width:125px;
+}
+
+.rapor{
+	color:#fff;
+	font-size:16px;
+	text-align:center;
+}
+.rapor td{
+	border-bottom:1px solid #fff;
+}
